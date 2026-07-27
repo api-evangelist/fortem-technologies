@@ -1,22 +1,74 @@
 aid: fortem-technologies
 name: Fortem Technologies
-description: Fortem Technologies is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fortem Technologies is an airspace security and defense company based in Lindon, Utah that
+  builds counter-unmanned aircraft systems (C-UAS) for military, government, critical
+  infrastructure, and commercial customers. Its SkyDome System combines TrueView AESA radars,
+  long-range TrueView cameras, RF sensors, and the autonomous DroneHunter interceptor into a
+  single detect-track-defeat capability, orchestrated by SkyDome Manager command-and-control
+  software. SkyDome Manager exposes REST, realtime, and track-only integration APIs so third-party
+  C2 platforms (such as the U.S. Army FAAD C2 and Lockheed Martin systems) can exchange over a
+  hundred fields and commands for airspace awareness and drone mitigation. Fortem is backed by
+  Lockheed Martin, DCVC, Toshiba, Boeing, and other strategic investors, and its systems have been
+  selected for high-profile deployments including protection of venues at the 2026 FIFA World Cup.
 url: https://raw.githubusercontent.com/api-evangelist/fortem-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.fortemtech.com/assets/img/logo/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+- lockheed-martin
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Counter-Drone
+- C-UAS
+- Airspace Security
+- Defense
+- Radar
+- Command and Control
+- Drone Detection
+- Aerospace
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/fortem-technologies-domain-security.yml
+- type: Website
+  url: https://fortemtech.com/
+- type: Documentation
+  url: https://fortemtech.com/products/skydome-manager/
+- type: Support
+  url: https://fortemtechnologies-experiences.force.com/customersuccess/s/login/
+- type: Blog
+  url: https://fortemtech.com/blog/
+- type: PrivacyPolicy
+  url: https://fortemtech.com/policies/privacy-policy/
+- type: TermsOfService
+  url: https://fortemtech.com/policies/terms-of-use/
+- type: LLMsTxt
+  url: llms/fortem-technologies-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
